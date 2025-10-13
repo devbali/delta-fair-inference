@@ -1,3 +1,5 @@
 [submodule "basic-sglang"]
 	path = basic-sglang
 	url = git@github.com:sgl-project/sglang.git
+[submodule "Prefix-VTC"]
+	url = git@github.com:caoshiyi/Prefix-VTC.git
