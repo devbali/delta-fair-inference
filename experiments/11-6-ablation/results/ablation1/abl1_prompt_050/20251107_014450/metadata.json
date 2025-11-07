@@ -1,0 +1,53 @@
+{
+  "experiment": "abl1_prompt_050",
+  "group": "ablation1",
+  "server_cmd": [
+    "/home/devbali/fairinf/prefix-vtc-venv/bin/python",
+    "-m",
+    "sglang.launch_server",
+    "--model-path",
+    "meta-llama/Llama-3.1-8B",
+    "--enable-eviction",
+    "--enable-iterative-eviction",
+    "--port",
+    "30000",
+    "--mem-frac",
+    "0.7",
+    "--schedule-po",
+    "lpm_mdrr",
+    "--load-ba",
+    "hdoubleq",
+    "--Q",
+    "50000",
+    "--global-Q",
+    "100000",
+    "--max-total",
+    "20000",
+    "--max-prefill",
+    "20000",
+    "--dtype",
+    "float16"
+  ],
+  "client_cmd": [
+    "/home/devbali/fairinf/prefix-vtc-venv/bin/python",
+    "/home/devbali/fairinf/delta-fair-inference/experiments/11-6-ablation/client.py",
+    "--prompt-words",
+    "50",
+    "--completion-tokens",
+    "2000",
+    "--request-rate",
+    "1.5",
+    "--duration",
+    "180",
+    "--max-concurrent",
+    "300"
+  ],
+  "success": false,
+  "error": null,
+  "timestamp": "2025-11-07T01:45:48",
+  "artifacts": [
+    "gpu_metrics_20251107_014544.csv",
+    "token_usage_20251107_014544.csv",
+    "latencies_20251107_014544.csv"
+  ]
+}

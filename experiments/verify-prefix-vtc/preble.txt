@@ -1,0 +1,200 @@
+Importing sglang prefix vtc waala...
+len of dimension_prompts: 4700
+len of dimension_prompts: 4060
+len of dimension_prompts: 3660
+len of dimension_prompts: 3960
+len of dimension_prompts: 4680
+len of dimension_prompts: 7140
+len of dimension_prompts: 3900
+len of dimension_prompts: 4060
+len of dimension_prompts: 3680
+len of dimension_prompts: 3900
+len of dimension_prompts: 4260
+len of dimension_prompts: 3680
+len of dimension_prompts: 4020
+len of dimension_prompts: 4100
+len of dimension_prompts: 3980
+len of dimension_prompts: 3940
+len of dimension_prompts: 4540
+len of dimension_prompts: 3660
+len of dimension_prompts: 4120
+avg_len: 13221.666666666666
+avg_len: 13385.666666666666
+avg_tokens: 2677.0
+hosgt and port http://127.0.0.1 30000
+User user0 progress: 1/50
+User user0 progress: 2/50
+User user0 progress: 3/50
+User user0 progress: 4/50
+User user0 progress: 5/50
+User user0 progress: 6/50
+User user0 progress: 7/50
+User user0 progress: 8/50
+User user0 progress: 9/50
+User user0 progress: 10/50
+User user0 progress: 11/50
+User user0 progress: 12/50
+User user0 progress: 13/50
+User user0 progress: 14/50
+User user0 progress: 15/50
+User user0 progress: 16/50
+User user0 progress: 17/50
+User user0 progress: 18/50
+User user0 progress: 19/50
+User user0 progress: 20/50
+User user0 progress: 21/50
+User user0 progress: 22/50
+User user0 progress: 23/50
+User user0 progress: 24/50
+User user0 progress: 25/50
+User user0 progress: 26/50
+User user0 progress: 27/50
+User user0 progress: 28/50
+User user0 progress: 29/50
+User user0 progress: 30/50
+User user0 progress: 31/50
+User user0 progress: 32/50
+User user0 progress: 33/50
+User user0 progress: 34/50
+User user0 progress: 35/50
+User user0 progress: 36/50
+User user0 progress: 37/50
+User user0 progress: 38/50
+User user0 progress: 39/50
+User user0 progress: 40/50
+User user0 progress: 41/50
+User user0 progress: 42/50
+User user0 progress: 43/50
+User user0 progress: 44/50
+User user0 progress: 45/50
+User user0 progress: 46/50
+User user0 progress: 47/50
+User user0 progress: 48/50
+User user0 progress: 49/50
+User user0 progress: 50/50
+User user0 completed all tasks in 123.103 seconds
+User user2 progress: 1/50
+User user2 progress: 2/50
+User user2 progress: 3/50
+User user2 progress: 4/50
+User user2 progress: 5/50
+User user2 progress: 6/50
+User user2 progress: 7/50
+User user2 progress: 8/50
+User user2 progress: 9/50
+User user2 progress: 10/50
+User user2 progress: 11/50
+User user2 progress: 12/50
+User user2 progress: 13/50
+User user2 progress: 14/50
+User user2 progress: 15/50
+User user2 progress: 16/50
+User user2 progress: 17/50
+User user2 progress: 18/50
+User user2 progress: 19/50
+User user2 progress: 20/50
+User user2 progress: 21/50
+User user2 progress: 22/50
+User user2 progress: 23/50
+User user2 progress: 24/50
+User user2 progress: 25/50
+User user2 progress: 26/50
+User user2 progress: 27/50
+User user2 progress: 28/50
+User user2 progress: 29/50
+User user2 progress: 30/50
+User user2 progress: 31/50
+User user2 progress: 32/50
+User user2 progress: 33/50
+User user2 progress: 34/50
+User user2 progress: 35/50
+User user2 progress: 36/50
+User user2 progress: 37/50
+User user2 progress: 38/50
+User user2 progress: 39/50
+User user2 progress: 40/50
+User user2 progress: 41/50
+User user2 progress: 42/50
+User user2 progress: 43/50
+User user2 progress: 44/50
+User user2 progress: 45/50
+User user2 progress: 46/50
+User user2 progress: 47/50
+User user2 progress: 48/50
+User user2 progress: 49/50
+User user2 progress: 50/50
+User user2 completed all tasks in 193.038 seconds
+User user1 progress: 1/50
+User user1 progress: 2/50
+User user1 progress: 3/50
+User user1 progress: 4/50
+User user1 progress: 5/50
+User user1 progress: 6/50
+User user1 progress: 7/50
+User user1 progress: 8/50
+User user1 progress: 9/50
+User user1 progress: 10/50
+User user1 progress: 11/50
+User user1 progress: 12/50
+User user1 progress: 13/50
+User user1 progress: 14/50
+User user1 progress: 15/50
+User user1 progress: 16/50
+User user1 progress: 17/50
+User user1 progress: 18/50
+User user1 progress: 19/50
+User user1 progress: 20/50
+User user1 progress: 21/50
+User user1 progress: 22/50
+User user1 progress: 23/50
+User user1 progress: 24/50
+User user1 progress: 25/50
+User user1 progress: 26/50
+User user1 progress: 27/50
+User user1 progress: 28/50
+User user1 progress: 29/50
+User user1 progress: 30/50
+User user1 progress: 31/50
+User user1 progress: 32/50
+User user1 progress: 33/50
+User user1 progress: 34/50
+User user1 progress: 35/50
+User user1 progress: 36/50
+User user1 progress: 37/50
+User user1 progress: 38/50
+User user1 progress: 39/50
+User user1 progress: 40/50
+User user1 progress: 41/50
+User user1 progress: 42/50
+User user1 progress: 43/50
+User user1 progress: 44/50
+User user1 progress: 45/50
+User user1 progress: 46/50
+User user1 progress: 47/50
+User user1 progress: 48/50
+User user1 progress: 49/50
+User user1 progress: 50/50
+User user1 completed all tasks in 271.648 seconds
+Latency: 379.805
+User user0 latencies: [6.937115907669067, 7.976459503173828, 10.156725406646729, 13.716014385223389, 15.889933824539185, 13.591119527816772, 18.710320711135864, 26.819607973098755, 26.507439613342285, 25.91096043586731, 23.156527280807495, 35.15949583053589, 37.2312445640564, 40.654555320739746, 40.71238946914673, 43.35523462295532, 45.83508348464966, 44.795472860336304, 43.786967277526855, 45.1246497631073, 31.063811779022217, 45.33466029167175, 12.064166784286499, 54.28373336791992, 78.08300352096558, 42.63423466682434, 61.08784508705139, 59.79558253288269, 96.11279797554016, 98.00321960449219, 96.05029296875, 98.53458595275879, 64.19619941711426, 104.80188226699829, 110.10250449180603, 75.82994532585144, 106.83193469047546, 112.72541689872742, 106.2356116771698, 109.12693190574646, 109.83486723899841, 104.65726661682129, 113.97594332695007, 114.44903492927551, 115.19357490539551, 114.47855281829834, 113.84655475616455, 113.52213048934937, 111.50130462646484, 123.10335636138916]
+User user2 latencies: [196.15362763404846, 188.67173099517822, 193.54362416267395, 148.3180329799652, 145.14925575256348, 155.68900871276855, 184.8488712310791, 132.84743690490723, 229.5780725479126, 228.10816192626953, 144.42449736595154, 141.28039932250977, 136.0659143924713, 230.14499497413635, 232.146582365036, 230.91703987121582, 229.94117069244385, 221.94133734703064, 228.45172500610352, 230.45310235023499, 217.91513204574585, 225.91691756248474, 224.4140543937683, 218.41341161727905, 217.83421564102173, 219.83500027656555, 216.3466181755066, 218.34754490852356, 217.86017966270447, 212.8720862865448, 207.537748336792, 216.5381166934967, 205.0669710636139, 213.72468400001526, 214.1239035129547, 211.4989607334137, 208.61153388023376, 207.4750509262085, 208.90059900283813, 207.5222682952881, 206.58668613433838, 205.04565286636353, 199.6701798439026, 198.3352153301239, 194.95167708396912, 198.05803680419922, 194.43220162391663, 191.1545672416687, 196.03436708450317, 193.03845715522766]
+User user1 latencies: [294.32976841926575, 282.8261435031891, 265.64591360092163, 249.58704900741577, 289.9536466598511, 282.2224631309509, 262.64203095436096, 265.5730514526367, 241.09309649467468, 238.27588963508606, 251.7271647453308, 260.1037893295288, 248.7770857810974, 258.73903489112854, 227.33042907714844, 323.7908499240875, 260.46558380126953, 256.9542281627655, 254.22516655921936, 252.21057105064392, 331.4697480201721, 319.9790287017822, 326.962566614151, 325.76155376434326, 326.0897333621979, 323.380779504776, 318.3376524448395, 315.16100668907166, 307.8234794139862, 302.94213461875916, 305.4580132961273, 320.56374526023865, 317.840975522995, 314.7896225452423, 306.79986357688904, 306.175644159317, 305.2053031921387, 300.1442539691925, 298.56456089019775, 297.98998761177063, 297.1887629032135, 294.1306223869324, 271.9670751094818, 266.56268882751465, 275.20715594291687, 277.57972407341003, 266.6275386810303, 271.8877577781677, 275.37655806541443, 271.6480267047882]
+
+Fastest completion by User user0 in 219.103 seconds
+len new_results_from_backend: 1299
+Service throughput (token/s): 12712.931
+Total service throughput when all 3 have (token/s): 15705.554
+
+Throughput Analysis:
+User throughput (req/s, input tok/s, output tok/s): {'user0': [4.069757725596875, 14801.488861091748, 352.1846864701888], 'user2': [0.06695253602627056, 199.56159827430318, 0.06695253602627056]}
+Minimum completion duration: 219.103s
+Total execution duration: 379.806s
+Service fairness (Jain index): 0.513
+Request fairness (Jain index): 0.516
+
+Latency Statistics per User:
+User ID | Mean (s) | P50 (s) | P99 (s)
+----------------------------------------
+User user0 |   65.270 |  57.040 | 119.228 | 113.859
+User user1 |  286.122 | 286.390 | 329.261 | 323.422
+User user2 |  201.935 | 208.075 | 231.544 | 229.614

@@ -1,0 +1,33 @@
+lpm_mdrr
+
+Server
+python -m sglang.launch_server --model-path meta-llama/Llama-3.1-8B --enable-eviction --enable-iterative-eviction --port 30000  --mem-frac 0.7 --schedule-po lpm_mdrr  --load-ba hdoubleq  --Q 50000 --global-Q 100000 --max-total 20000 --max-prefill 20000   --dtype float16
+
+Client (dir ~/fairinf/delta-fair-inference/Prefix-VTC/benchmark/llm_judge)
+python bench_online_llmasjudge.py --port 30000 --result-file Global --num-questions 150 --result_file 1128test_new.jsonl --intervals 2 2 2  --dp 1 --enable-eviction --enable-iterative-eviction  --branches 16 2 2 --initial-delay 10 >$HOME/fairinf/delta-fair-inference/experiments/verify-prefix-vtc/lpn_mdrr.txt
+
+lpm
+
+Server
+python -m sglang.launch_server --model-path meta-llama/Llama-3.1-8B --enable-eviction --enable-iterative-eviction --port 30000  --mem-frac 0.7 --schedule-po lpm --Q 4000 --global-Q 6000 --max-total 20000 --max-prefill 20000   --dtype float16
+
+Client
+python bench_online_llmasjudge.py --port 30000 --result-file Global --num-questions 150 --result_file 1128test_new.jsonl --intervals 2 2 2  --dp 1 --enable-eviction --enable-iterative-eviction  --branches 16 2 2 --initial-delay 10 >$HOME/fairinf/delta-fair-inference/experiments/verify-prefix-vtc/lpm.txt
+
+vtc
+
+Server
+python -m sglang.launch_server --model-path meta-llama/Llama-3.1-8B --enable-eviction --enable-iterative-eviction --port 30000 --mem-frac 0.7   --schedule-po vtc  --load-ba drr1 --Q 3000 --global-Q 6000 --max-total 20000 --max-prefill 20000   --dtype float16
+
+Client
+python bench_online_llmasjudge.py --port 30000 --result-file Global --num-questions 150 --result_file 1128test_new.jsonl --intervals 2 2 2  --dp 1 --enable-eviction --enable-iterative-eviction  --branches 16 2 2 --initial-delay 10 >$HOME/fairinf/delta-fair-inference/experiments/verify-prefix-vtc/vtc.txt
+
+preble
+
+Server
+python -m sglang.launch_server --model-path meta-llama/Llama-3.1-8B --enable-eviction --enable-iterative-eviction --port 30000 --mem-frac 0.7   --schedule-po preble  --load-ba preble --Q 3000 --global-Q 6000 --max-total 20000 --max-prefill 20000   --dtype float16
+
+Client
+python bench_online_llmasjudge.py --port 30000 --result-file Global --num-questions 150 --result_file 1128test_new.jsonl --intervals 2 2 2  --dp 1 --enable-eviction --enable-iterative-eviction  --branches 16 2 2 --initial-delay 10 >$HOME/fairinf/delta-fair-inference/experiments/verify-prefix-vtc/preble.txt
+
+

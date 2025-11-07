@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # --- Settings ---
-CSV_PATH = "/home/devbali/fairinf/delta-fair-inference/experiments/10-15-prefixvtc-1s-300/latencies_20251021_034331.csv"
+CSV_PATH = "/home/devbali/fairinf/delta-fair-inference/experiments/10-15-prefixvtc-1s-300/latencies_20251028_012135.csv"
 GPU_CSV_PATH = CSV_PATH.replace("latencies_", "gpu_metrics_")
 TOKEN_USAGE_CSV_PATH = CSV_PATH.replace("latencies_", "token_usage_")
 SGLANG_LOG_PATH = "sglang_log_decode.csv"

@@ -1,0 +1,37 @@
+{
+  "experiment": "abl3_share_60",
+  "group": "ablation3",
+  "server_cmd": [
+    "/home/devbali/fairinf/prefix-vtc-venv/bin/python",
+    "/home/devbali/fairinf/delta-fair-inference/experiments/11-6-ablation/server.py",
+    "--visible-device",
+    "0",
+    "--compute-share",
+    "60",
+    "--port",
+    "30000"
+  ],
+  "client_cmd": [
+    "/home/devbali/fairinf/prefix-vtc-venv/bin/python",
+    "/home/devbali/fairinf/delta-fair-inference/experiments/11-6-ablation/client.py",
+    "--prompt-words",
+    "600",
+    "--completion-tokens",
+    "2500",
+    "--request-rate",
+    "2",
+    "--duration",
+    "240",
+    "--max-concurrent",
+    "400"
+  ],
+  "success": true,
+  "error": null,
+  "timestamp": "2025-11-07T15:06:10",
+  "artifacts": [
+    "gpu_metrics_20251107_122254.csv",
+    "token_usage_20251107_122254.csv",
+    "latencies_20251107_122254.csv",
+    "sglang_log_decode.csv"
+  ]
+}
